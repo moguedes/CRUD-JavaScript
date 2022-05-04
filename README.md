@@ -22,13 +22,13 @@
 
 [![image](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://www.google.pt/intl/pt-PT/chrome/)
 
-<h3 id="access-project">📁 Acessar Projeto</h3>
+<h3 id="access-project">📁 Access Project</h3>
 
-◽ <a href="">Acessar</a>🔗 o código fonte pelo GitHub. <br>
-◽ <a href="">Download</a>🔗 do código fonte no formato zip.<br>
-◽ Clonar o repositório ultilizando Git Bash + o comando:
+◽ <a href="https://github.com/moguedes/CRUD-JavaScript">Access</a>🔗 source code via GitHub. <br>
+◽ <a href="https://github.com/moguedes/CRUD-JavaScript/archive/refs/heads/main.zip">Download</a>🔗 the source code as a zip file.<br>
+◽ Clone this repository using Git Bash + the command:
 
-       $ git clone colocar link
+       $ git clone https://github.com/moguedes/CRUD-JavaScript.git
 
 <h3 id="techstack">⚙️ Tech Stack</h3>
 
