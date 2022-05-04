@@ -24,7 +24,7 @@
 
 <h3 id="access-project">📁 Access Project</h3>
 
-◽ <a href="https://github.com/moguedes/CRUD-JavaScript">Access</a>🔗 source code via GitHub. <br>
+◽ <a href="https://github.com/moguedes/CRUD-JavaScript">Access</a>🔗 the source code via GitHub. <br>
 ◽ <a href="https://github.com/moguedes/CRUD-JavaScript/archive/refs/heads/main.zip">Download</a>🔗 the source code as a zip file.<br>
 ◽ Clone this repository using Git Bash + the command:
 
