@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/records.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <script src="main.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Magno Guedes' CRUD</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">Customer Base</h1>
+    </header>
+    <main>
+      <button type="button" class="button blue mobile" id="addCustomer">
+        Add Customer
+      </button>
+      <table id="tableClient" class="records">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>City</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <header class="modal-header">
+            <h2>New Customer</h2>
+            <span class="modal-close" id="modalClose">&#10006;</span>
+          </header>
+          <form class="modal-form" id="form">
+            <input
+              type="text"
+              id="name"
+              data-index="new"
+              class="modal-field"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              class="modal-field"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="tel"
+              id="mobile"
+              class="modal-field"
+              placeholder="Mobile Number: (xx)9xxxx-xxxx"
+              pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}"
+              required
+            />
+            <input
+              type="text"
+              id="city"
+              class="modal-field"
+              placeholder="City"
+              required
+            />
+          </form>
+          <footer class="modal-footer">
+            <button class="button green" id="save">Save</button>
+            <button class="button blue" id="clear">Clear</button>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/moguedes"
+        ><img class="img" src="assets/images/GitHub.png" alt="GitHubIcon"
+      /></a>
+      <a href="https://www.instagram.com/_magnoguedes/"
+        ><img
+          class="img"
+          id="instagram"
+          src="assets/images/instagram.png"
+          alt="InstagramIcon"
+      /></a>
+      By Magno Otávio Guedes
+    </footer>
+  </body>
+</html>
