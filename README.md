@@ -54,7 +54,7 @@ Testing... 🚧
 
 <h3 id="author">✒️ Author</h3>
 
-<a href="https://github.com/moguedes"> <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90535255?v=4" width="100px;" alt="Personal photo"/> </a>
+<a href="https://github.com/moguedes"> <img src="https://avatars.githubusercontent.com/u/90535255?v=4" width="100px;" alt="Personal photo"/> </a>
 
 Developed by **Magno Guedes**.
 
